@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="info">
+          <div class="info1 infos">
+            Hit
+            <div class="info-box target-num">0</div>
+          </div>
+          <div class="info2 infos">
+            Timer
+            <div class="info-box timer-box ">0</div>
+          </div>
+          <div class="info3 infos">
+            Score
+            <div class="info-box score-box">0</div>
+          </div>
+
+         <button class="start-btn">
+            Start Game
+         </button>
+
+        </div>
+      </header>
+
+
+      <main>
+
+        <!-- number container -->
+        <div class="num-container"></div>
+
+        <!-- quit messsage -->
+         <div class="quit-box">
+            <h3>Are You sure, You want to Quit ?</h3>
+            <div class="options">
+                <button class="yes confirm-btn">Yes</button>
+                <button class="no confirm-btn">No</button>
+            </div>
+         </div>
+      </main>
+
+
+      <div class="final-score-box">
+        <h3>Your Score : <span class="final-score">0</span></h3>
+        <h3>Time Take : 15sec</h3>
+        <button class="score-ok-btn">OK</button>
+      </div>
+
+      <div id="freeze"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
